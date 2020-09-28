@@ -1,0 +1,212 @@
+@media screen and(max-width: 1150px) {
+    section {
+        flex-direction: column;
+
+        .left,
+        .right {
+            width: 100%;
+        }
+
+        .left {
+
+            .profil {
+                position: absolute;
+                // background-color: #555;
+                width: 100%;
+
+                img {
+                    position: relative;
+                    background-color: #333;
+                    width: 25%;
+                    bottom: -20px;
+                    left: 40%;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        .right {
+            padding-bottom: 50px;
+
+            .container {
+                .who-me {
+                    .description {
+                        p {
+                            font-size: 1em;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 842px) {
+
+    .left {
+        .my-name {
+            h1 {
+                font-size: 1em;
+                padding-bottom: 10px;
+            }
+        }
+
+
+        .profil {
+            position: absolute;
+            // background-color: #555;
+            width: 100%;
+
+            img {
+                position: relative;
+                background-color: #333;
+                width: 20%;
+                bottom: -20px;
+                left: 40%;
+                overflow: hidden;
+            }
+        }
+    }
+
+    .right {
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+
+        .description {
+            p {
+                font-size: 1em;
+            }
+        }
+
+    }
+
+}
+
+@media screen and(max-width: 635px) {
+    .right {
+        nav {
+            ul {
+                li {
+                    font-size: .7em;
+                }
+            }
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+
+        .container {
+            width: 70%;
+            margin: auto;
+        }
+    }
+
+    .left {
+        height: 40vh;
+        // margin-top: -20px;
+
+
+        .container {
+            .profil {
+                margin-bottom: 30px;
+
+                img {
+                    width: 30%;
+                }
+            }
+
+            .my-name {
+                h1 {
+                    font-size: .6em;
+                    padding-bottom: 10px;
+                }
+
+                .line {
+                    height: 3px;
+                    width: 60px;
+                    // display: none;
+                }
+            }
+
+
+            .social-media {
+                img {
+                    width: 15px;
+                    padding: 5px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and(max-width: 320px) {
+
+    .left {
+        height: 40vh;
+        margin-top: -20px;
+
+
+        .container {
+            .social-media {
+                img {
+                    width: 15px;
+                    padding: 5px;
+                }
+            }
+
+            .profil {
+                img {
+                    width: 30%;
+                }
+            }
+
+            .my-name {
+                h1 {
+                    font-size: .5em;
+                    margin-bottom: 40px;
+                }
+
+                .line {
+                    height: 3px;
+                    width: 60px;
+                    // display: none;
+                }
+            }
+        }
+    }
+
+    .right {
+        nav {
+            ul {
+                li {
+                    font-size: .5em;
+                }
+            }
+        }
+
+        p {
+            font-size: 1em;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+    }
+}
+
+// desktop 1440px
+// @media screen and(min-width: 1440px) 
+
+// tablet 768px
+// @media screen and(min-width: 768px) 
+
+// mobile 360px
+// @media screen and(min-width: 360px) 
+
+// min berarti value++
+// max berarti value--
